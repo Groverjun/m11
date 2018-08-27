@@ -1,0 +1,745 @@
+*{margin: 0;padding: 0;font-family: "微软雅黑";text-decoration: none;list-style: none;font-weight: normal;box-sizing: border-box;}
+/*1em=12px*/
+html,body{
+	font-size: 14px;
+	width: 100%;
+	font-family: "微软雅黑";
+}
+.h1, .h2, .h3, h1, h2, h3{margin: 0;padding: 0;font-family: "微软雅黑";}
+.alert-danger.topframe{
+	border-bottom:1px solid #ebccd1;
+}
+.topframe {
+	margin: 0;
+	padding-left: 15px;
+	padding-right: 15px;
+	text-align: center;
+	border-radius: 0;
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	z-index: 1000;
+	color: red;
+	font-weight: bold;
+	background: #faebcc;
+	font-size: 16px;
+}
+
+.topframe.alert-warning {
+	border-bottom: 1px solid #faebcc
+}
+
+.topframe.alert-danger {
+	border-bottom: 1px solid #ebccd1
+}.modulePC{
+	min-width: 1200px;
+	overflow-x: hidden;
+}
+.modulePC_content{
+}
+.modulePC_content .head{
+	text-align: center;
+	padding: 75px 0;
+	color: #fff;
+	background: url(../img/pc_head.jpg);
+	background-size: 100% 100%;
+	background-color: #4e76d5;
+	background-repeat: no-repeat;
+	background-position: bottom;
+	position: relative;
+}
+.modulePC_content .head .head_logo{
+	position: absolute;
+	top: 5%;
+	left: 15%;
+	width: 122px;
+	height: 69px;
+	background: url(../img/logo.png);
+	font-size: 22px;
+	color: #63f6e6;
+	line-height: 89px;
+}
+.modulePC_content .head .head_logo span{
+	display: inline-block;
+	vertical-align:bottom;
+}
+.modulePC_content .head h3{
+	font-size: 30px;
+	letter-spacing: 10px;
+}
+.modulePC_content .head h1{
+	font-size: 120px;
+	letter-spacing: 10px;
+	font-weight: bold;
+}
+.modulePC_content .head h1 span{
+	font-weight: bold;
+	font-size: 120px;
+    background: linear-gradient(to right, #426dd2, #ffffff);
+    background-clip: inherit;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.modulePC_content .head h2{
+	font-size: 28px;
+	font-weight: bold;
+	letter-spacing: 5px;
+	padding-top: 10px;
+}
+.modulePC_content .head h2 span{
+	display: inline-block;
+	height: 28px;
+	line-height: 28px;
+	vertical-align: top;
+	padding: 0 10px;
+	border-right: 1px solid #fff;
+}
+.modulePC_content .head h2 span:last-child{border: none;}
+.modulePC_content .head .head_abt{
+	text-align: center;
+	font-size: 28px;
+	padding-top: 40px;
+}
+.modulePC_content .head .head_abt span{
+	display: inline-block;
+	padding: 15px 25px;
+	border-radius: 5px;
+	background: #fff;
+	color: #4e76d5;
+	cursor: pointer;
+	min-width: 200px;
+	text-align: center;
+	margin: 0 15px;
+}
+.modulePC_content .problem{
+	text-align: center;
+	padding: 50px 0;
+}
+.modulePC_content .problem .problem_h1{
+	color: #4e76d6;
+	font-size: 40px;
+	height: 39px;
+	line-height: 39px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.modulePC_content .problem .problem_h1 span{
+	font-weight: bold;
+	margin: 0 20px;
+}
+.modulePC_content .problem .problem_txt{
+	font-size: 22px;
+	color: #4e76d6;
+	width: 875px;
+	margin: auto;
+	line-height: 50px;
+	padding: 40px 0;
+}
+.modulePC_content .problem .problem_txt span{
+	display: inline-block;
+	white-space: normal;
+	margin: 0 25px;
+	font-weight: bold;
+}
+.modulePC_content .problem .proble_click{
+	cursor: pointer;
+}
+.modulePC_content .tableRecommend{
+	width: 100%;
+	padding: 60px 0 160px;
+	background: url(../img/productTable_bg.jpg);
+	background-size: 100% 100%;
+	overflow-x: hidden;
+}
+.modulePC_content .tableRecommend_h1{
+	color: #fff;
+    font-size: 40px;
+    height: 41px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modulePC_content .tableRecommend_h1 span{
+	font-weight: bold;
+	margin: 0 30px;
+}
+.modulePC_content .tableRecommend_table{
+	width: 990px;
+	margin: auto;
+	padding-top: 60px;
+}
+.modulePC_content .tableRecommend_table table{
+	width: 100%;
+	border-color: #4e76d6;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.modulePC_content .tableRecommend_table table thead {
+	background: #2f57b9;
+}
+.modulePC_content .tableRecommend_table table thead th{
+	font-weight: bold;
+	font-size: 28px;
+	color: #fff;
+	position: relative;
+	text-align: center;
+}
+.modulePC_content .tableRecommend_table table thead th .triangle{
+	position: absolute;
+	display: block;
+	width: 0px;
+	height: 0px;
+	border: 15px solid transparent;
+	border-top-color: #1c419a;
+	left: 0;
+	right: 0;
+	margin: auto;
+	bottom: -30px;
+}
+.modulePC_content .tableRecommend_table table thead .tableRecommend_tableLeft{
+	background: #1c419a;
+}
+.modulePC_content .tableRecommend_table table .tableRecommend_tableLeft{
+	width: 350px;
+}
+.modulePC_content .tableRecommend_table table th{
+	height: 56px;
+	border:1px solid #4e76d6;
+	border-bottom: none;
+	border-left: none;
+	text-align: center;
+}
+.modulePC_content .tableRecommend_table table tbody th{
+	color: #4c77d6;
+	font-size: 22px;
+}
+.modulePC_content .tableRecommend_table table tbody .tableRecommend_tableLeft{
+	background: #dce7fe;
+}
+.modulePC_content  .tableRecommend_h2{
+	padding: 43px 0 34px;
+}
+.modulePC_content .productTable{
+	width: 996px;
+	margin: auto;
+}
+.modulePC_content .productTable .productTable_box{
+	width: 468px;
+	height: 482px;
+	background: #fff;
+	border-radius: 10px;
+	padding: 40px 10px 20px;
+	text-align: center;
+	margin-top: 30px;
+}
+.modulePC_content .productTable .productTable_box h1{
+	font-size: 28px;
+	color: #578bee;
+	padding-bottom: 25px;
+	font-weight: bold;
+}
+.modulePC_content .productTable .productTable_box .img{
+	width: 446px;
+	height: 305px;
+	border-radius: 10px;
+	background: #e0ecfb;
+	padding: 10px;
+	overflow: hidden;
+}
+.modulePC_content .productTable .productTable_box .img img{width: 100%;}
+.modulePC_content .productTable .productTable_box .abt{
+	padding-top: 12px;
+}
+.modulePC_content .productTable .productTable_box .abt a{
+	background: #578ded;
+	color:#fff;
+	font-size: 20px;
+	text-decoration: none;
+	padding: 10px 15px;
+	border-radius: 2000px;
+}
+.modulePC_content .productMonth {
+	width: 1146px;
+	margin: auto;
+	padding: 60px 0 0;
+}
+.modulePC_content .productMonth .problem_h1{
+	color: #4e76d6;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center;
+}
+.modulePC_content .productMonth .productMonthP{
+	font-size: 22px;
+	color: #222222;
+	text-align: center;
+	padding: 34px 0 48px;
+}
+.modulePC_content .productMonth  .productMonthList{
+	width: 330px;
+	height: 260px;
+	background: #4d77d6;
+	padding: 12px;
+}
+.modulePC_content .productMonth  .productMonthList .productMonthList_img{
+	width: 310px;
+	height: 196px;
+	background: #fff;
+	padding: 10px;
+}
+.modulePC_content .productMonth  .productMonthList .productMonthList_p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+	padding-top: 13px;
+}
+.modulePC_content .productMonth   .productMonthListTxt{
+	padding: 20px 0 40px;
+}
+.modulePC_content .productMonth   .productMonthListTxt .productMonthListTxt_h1{
+	font-size: 18px;
+	color: #333333;
+}
+.modulePC_content .productMonth   .productMonthListTxt .productMonthListTxt_abt {
+	text-align: left;
+	padding-top: 26px;
+}
+.modulePC_content .productMonth   .productMonthListTxt .productMonthListTxt_abt a{
+	font-size: 18px;
+	color: #fff;
+	padding: 6px 35px;
+	background: #4d77d6;
+	border-radius: 2000px;
+	text-decoration: none;
+	margin-right: 40px;
+}
+.modulePC_content .productMonth   .productMonthListTxt .productMonthListTxt_abt span{
+	text-decoration: underline;
+	font-size: 18px;
+	color: #333333;
+}
+.modulePC_content .productMonth  .honor .honor_h1{
+	margin-bottom: 30px;
+}
+.modulePC_content .productMonth  .honor_list{
+	width: 280px;
+	height: 250px;
+	border: 1px solid #eee;
+	padding: 10px;
+}
+.modulePC_content .productMonth  .honor_list .honor_listImg{
+	width: 100%;
+	height: 177px;
+	overflow: hidden;
+}
+.modulePC_content .productMonth  .honor_list .honor_listTxt{
+	color: #555555;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 20px;
+}
+.modulePC_content .productMonth  .promise{
+	padding: 53px 0;
+}
+.modulePC_content .productMonth  .promise .promise_h1 h1{
+	font-weight: bold;
+	font-size: 32px;
+	color: #4e76d6;
+	padding-top: 15px;
+}
+.modulePC_content .productMonth  .promise .promiseList li{
+	float: left;
+	height: 136px;
+}
+.modulePC_content .productMonth  .promise .promiseList .promiseListT{
+	width: 120px;
+	height: 136px;
+	background: url(../img/baing1.png);
+	background-size: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	color: #4e76d6;
+	font-size: 20px;
+}
+.modulePC_content .productMonth  .promise .promiseList .promiseListT p{padding: 0;margin: 0;}
+.modulePC_content .productMonth  .promise .promiseList .promiseListTjia{
+	height: 136px;
+	font-weight: bold;
+	font-size: 34px;
+	color: #4e76d6;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	margin: 0 10px;
+}
+
+.modulePC_content .productMonth  .promise .promiseList:last-child .promiseListTjia{display: none;}
+.modulePC_content .productMonth  .promise .promiseList:first-child{
+	background: #000;
+}
+.modulePC_content .productMonthT{
+	width: 100%;
+	padding: 0;
+	background:url(../img/productMonthTBg.jpg);
+	background-size: 100% 100%;
+}
+.modulePC_content .productMonthT .productMonthT_content{
+	width: 1146px;
+	margin: auto;
+	padding: 100px 0 0;
+}
+.modulePC_content .productMonthT .productMonthT_content .problem_h1{color: #fff;}
+.modulePC_content .productMonthT .productMonthT_content .productMonthP{color: #fff;}
+.modulePC_content .productMonthT .productMonthList{
+	background: #fff;
+}
+.modulePC_content .productMonthT .productMonthList .productMonthList_p{
+	color: #333333;
+}
+.modulePC_content .productMonthT .productMonthListTxt .productMonthListTxt_h1{
+	color: #fff;
+}
+.modulePC_content .productMonthT .productMonthListTxt .productMonthListTxt_abt a{color: #4e76d6;background: #fff;}
+.modulePC_content .productMonthT .productMonthListTxt .productMonthListTxt_abt span{color: #fff;}
+.discount .discount_content{
+	padding: 70px 0 ;
+}
+.discount .tableRecommend_h1{
+	color: #4e76d6;
+	font-size: 40px;
+}
+.discount .discount_txt{
+	text-align: center;
+	padding: 50px 0 0;
+}
+.discount .discount_txt h2{
+	color: #4e76d6;
+	font-weight: bold;
+	font-size: 40px;
+}
+.discount .discount_txt h3{
+	color: #4e76d6;
+	font-weight: bold;
+	font-size: 27px;
+	line-height: 50px;
+}
+.discount .discount_txt p{
+	padding: 15px 0;
+	margin: 0;
+	cursor: pointer;
+}
+.discount .discount_txt a{
+	padding: 8px 15px;
+	font-size: 24px;
+	color: #ffffff;
+	text-decoration: none;
+	background: #4e76d6;
+	border-radius: 2000px;
+}
+.tableRecommendTopImg{display: none;}
+@media (max-width:750px) {
+	.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9{
+		padding: 0;
+		margin: 0;
+	}
+	.row {
+	    margin: 0;
+	}
+	.modulePC{
+		width: 100%;
+		min-width: 100%;
+		overflow-x: hidden;
+	}
+	.modulePC_content .head{
+		text-align: center;
+	    padding: 0.5rem 0 0.78rem;
+	    color: #fff;
+	    background: none;
+	    background: url(../img/mBanner.jpg);
+	    background-size:100% auto;
+	    background-position-y: bottom;
+	    background-color: #4e76d5;
+	    background-repeat: no-repeat;
+	    background-position: bottom;
+	    position: relative;
+	}
+	.modulePC_content .head .head_logo{display: none;}
+	.modulePC_content .head h3{
+		font-size: 0.28rem;
+	}
+	.modulePC_content .head h1{
+		font-size: 1.2rem;
+		letter-spacing:0.1rem;
+	}
+	.modulePC_content .head h1 span{font-size: 1.2rem;}
+	.modulePC_content .head h2{
+		font-size: 0.28rem;
+		letter-spacing: 0.05rem;
+    	padding: 0.36rem 0 0.38rem;
+	}
+	.modulePC_content .head h2 span{
+		height: 0.28rem;
+	    line-height: 0.28rem;
+	    padding: 0 0.1rem;
+	    vertical-align: top;
+	}
+	.modulePC_content .head .head_abt {
+	    text-align: center;
+	    font-size: 0.28rem;
+	    padding-top: 0.4rem;
+	}
+	.modulePC_content .head .head_abt span {
+	    display: inline-block;
+	    padding: 0.15rem 0.25rem;
+	    border-radius: 5px;
+	    background: #fff;
+	    color: #4e76d5;
+	    cursor: pointer;
+	    min-width: 2rem;
+	    text-align: center;
+	    margin: 0 0.15rem;
+	}
+	.modulePC_content .problem {
+	    text-align: center;
+	    padding: 0.5rem 0;
+	}
+	.modulePC_content .problem .problem_h1 {
+	    color: #4e76d6;
+	    font-size: 0.4rem;
+	    height: 0.39rem;
+	    line-height: 0.39rem;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.modulePC_content .problem .problem_h1 img{
+		width: 10%;
+	}
+	.modulePC_content .problem .problem_txt {
+	    font-size: 0.28rem;
+	    color: #4e76d6;
+	    width:100%;
+	    margin: auto;
+	    line-height: 0.5rem;
+	    padding: 0.4rem 0;
+	}
+	.modulePC_content .problem .problem_txt span{
+		margin: 0 0.25rem;
+	}
+	.modulePC_content .tableRecommend {
+	    width: 100%;
+	    padding: 0 0 ;
+	    background: #4d77d6;
+	    background-size: 100% 100%;
+	    overflow: auto;
+	}
+	.modulePC_content .tableRecommend_h1 {
+		width: 100%;
+	    color: #fff;
+	    font-size: 0.4rem;
+	    height: 0.41rem;
+	    line-height: 0.41rem;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	}
+	.tableRecommend_h1 img{
+		width: 10%;
+	}
+	.tableRecommendTopImg{display: block;margin-bottom: 0.36rem;}
+	.modulePC_content .tableRecommend_table {
+	    width:100%;
+	    margin: auto;
+	    padding:0.5rem 0.16rem 0;
+	}
+	.modulePC_content .tableRecommend_table table .tableRecommend_tableLeft {
+	    width: 50%;
+	}
+	.modulePC_content .tableRecommend_table table{
+		table-layout: fixed;
+	}
+	.modulePC_content .tableRecommend_table table thead th {
+	    font-size: 0.28rem;
+	}
+	.modulePC_content .tableRecommend_table table th {
+	    height:0.56rem;
+	}
+	.modulePC_content .tableRecommend_table table tbody th{
+		font-size: 0.28rem;
+		white-space: nowrap;
+        text-overflow: ellipsis;
+	}
+	.modulePC_content .tableRecommend_table table thead th .triangle{
+		border: 0.15rem solid transparent;
+		border-top-color: #1c419a;
+		bottom: -0.3rem;
+	}
+	.modulePC_content .productTable{width: 100%;}
+	.modulePC_content .productTable .productTable_box {
+	    width: 5.90rem;
+	    height: 6.04rem;
+	    border-radius: 10px;
+	    padding: 0.36rem 0.1rem 0.20rem;
+	    margin:0.5rem auto;
+	}
+	.modulePC_content .productTable .productTable_box h1 {
+	    font-size: 0.28rem;
+	    padding-bottom: 0.25rem;
+	}
+	.modulePC_content .productTable .productTable_box .img {
+	    width:5.62rem;
+	    height: 3.81rem;
+	    border-radius: 0.10rem;
+	    padding:  0.10rem;
+	}
+	.modulePC_content .productTable .productTable_box .abt {
+	    padding-top: 0.12rem;
+	}
+	.modulePC_content .productTable .productTable_box .abt a {
+	    font-size: 0.28re,;
+	    padding: 0.10rem 0.15rem;
+	}
+	.modulePC_content .productMonth {
+	    width: 100%;
+	    margin: auto;
+	    padding: 0.6rem 0 0;
+	}
+	.modulePC_content .productMonth .problem_h1 {
+	    font-size: 0.4rem;
+	}
+	p{padding: 0;margin: 0;}
+	.problem_h1 img{width: 10%;}
+	.modulePC_content .productMonth .productMonthP {
+	    font-size: 0.28rem;
+	    padding: 0.32rem 0 0.48rem;
+	}
+	.modulePC_content .productMonth .productMonthList {
+	    width: 3.56rem;
+	    height: 2.80rem;
+	    padding: 0.12rem;
+	    margin: 0 0.1rem;
+	}
+	.modulePC_content .productMonth .productMonthList .productMonthList_img {
+	    width: 3.31rem;
+	    height: 2.10rem;
+	    padding: 0.1rem;
+	    overflow: hidden;
+	}
+	.modulePC_content .productMonth .productMonthList .productMonthList_p {
+	    font-size:0.28rem;
+	    padding-top: 0.13rem;
+	}
+	.modulePC_content .productMonth .productMonthListTxt {
+	    padding: 0.2rem 0 0.4rem;
+	}
+	.modulePC_content .productMonth .productMonthListTxt .productMonthListTxt_h1 {
+	    font-size: 0.28rem;
+	    white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+	}
+	.modulePC_content .productMonth .productMonthListTxt .productMonthListTxt_abt {
+	    padding-top: 0.26rem;
+	    text-align: center;
+	}
+	.modulePC_content .productMonth .productMonthListTxt .productMonthListTxt_abt a {
+	    font-size: 0.28rem;
+	    padding: 0.15rem 0.35rem;
+	    margin: auto;
+	}	
+	.modulePC_content .productMonth .productMonthListTxt .productMonthListTxt_abt span {
+	   display: none;
+	}
+	.modulePC_content .productMonth .honor_list {
+	    width: 3rem;
+	    height: 2.66rem;
+	    padding: 0.1rem;
+	    margin: auto;
+	}
+	.modulePC_content .productMonth .honor_list .honor_listImg {
+	    width: 100%;
+	    height: 1.99rem;
+	    overflow: hidden;
+	}
+	.modulePC_content .productMonth .honor_list .honor_listTxt {
+	    font-size: 0.28rem;
+	    padding-top: 0;
+	}	
+	.modulePC_content .productMonth .promise {
+	    padding: 0.53rem ;
+	}	
+	.modulePC_content .productMonth .promise .promise_h1 img{width: 40%;}
+	.modulePC_content .productMonth .promise .promise_h1 h1{
+	    font-size: 0.32rem;
+	    padding-top: 0.15rem;
+	}
+	.modulePC_content .productMonth .promise{
+		display: flex;
+		align-items: center;
+		flex-flow: wrap;
+		justify-content: space-between;
+	}
+	.modulePC_content .productMonth .promise .promiseList .promiseListT {
+	    width: 1.50rem;
+	    height: 1.75rem;
+	    background-size: 100% 100%;
+	    color: #4e76d6;
+	    font-size: 0.2rem;
+	}
+	.modulePC_content .productMonth .promise .promiseList .promiseListTjia {
+	    height: 1.75rem;
+	    font-size: 0.34rem;
+	    margin: 0 0.1rem;
+	}	
+	.modulePC_content .productMonthT {
+	    width: 100%;
+	    padding: 0;
+	    background:url(../img/mjingBg.jpg);
+	    background-size:100% auto;
+	    background-repeat: no-repeat;
+	    background-color: #5282e1;
+	}
+	.modulePC_content .productMonthT .productMonthT_content {
+	   width: 100%;
+	   padding: 1rem 0 0;
+	}
+	.modulePC_content .productMonthT .productMonthList .productMonthList_p{
+		font-size: 0.24rem;
+	}
+	.discount .discount_content {
+	    padding: 0.7rem 0;
+	}
+	.discount .tableRecommend_h1 {
+	    color: #4e76d6;
+	    font-size: 0.4rem;
+	}
+	.discount .discount_txt {
+	    text-align: center;
+	    padding: 0.5rem 0 0;
+	}
+	.discount .discount_txt h2 {
+	    font-size:0.4rem;
+	}
+	.discount .discount_txt h3 {
+	    font-size:0.28rem;
+	    line-height: 0.5rem;
+	}
+	.discount .discount_txt p {
+	    padding: 0.15rem 0;
+	}
+	.discount .discount_txt p img{
+	    width: 5%;
+	}
+	.discount .discount_txt a {
+	    padding: 0.15rem 0.35rem;
+	    font-size: 0.28rem;
+	    display: inline-block;
+	    margin-top: 0.15rem;
+	}
+}
