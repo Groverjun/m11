@@ -558,6 +558,7 @@ html,body{
 	    margin: auto;
 	    padding:0.5rem 0.16rem 0;
 	}
+	.modulePC_content .tableRecommend_table table th{border: none;}
 	.modulePC_content .tableRecommend_table table .tableRecommend_tableLeft {
 	    width: 50%;
 	}
