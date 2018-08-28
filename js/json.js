@@ -1,0 +1,194 @@
+var m11={
+	headlogo:"源头厂家",
+	headH1:"办公室装修",
+	headH2:"中高档写字楼&高档餐厅酒店工程",
+	headlist:[
+		'低于同行10%价格',
+		'工期5-7天',
+		'AAA施工资质',
+	],
+	headAbt:[
+		'咨询工程师方案',
+		'了解装修风格'
+	],
+	considerH1:"你需要考虑",
+	consider:[
+		'装修公司靠不靠谱？',
+		'不了解装修市场价格？',
+		'售后问题能得不到保障吗？',
+		'是不是专业设计师？',
+		'流程不清楚？',
+		'工人不靠谱？',
+	],
+	tableH1:"一站式解决您的装修烦恼",
+	thead:[{
+		left:"产品优势",
+		right:"描述优势",
+	}],
+	tbody:[
+		{left:"源头/双甲资质",right:"16年专注打造轻松简洁的办公室空间，行业内AAA资质"},
+		{left:"施工团队/服务团队/自有工人",right:"拥有统一管理工人与完善的项目，无被“分包”风险"},
+		{left:"运输物流",right:"专业运输团队，保障物流时间"},
+		{left:"其他项目产品齐全",right:"提供并安装办公桌椅、立柜、储物架、沙发、会议桌等"},
+		{left:"空间设计/整体风格",right:"专业设计师规划布局，并出具建筑结构分析图，效果图等"},
+		{left:"整体报价",right:"低于同行10%价格 成本价格，口碑好"},
+		{left:"施工15天",right:"施工统一安排，衔接紧密，从毛坯到入住只需15天标准工期"},
+		{left:"品牌材料/没有中间商赚差价",right:"精心挑选上百种材质，每一件产品均从厂家直达施工现场"},
+		{left:"服务/售后问题",right:"24小时售后电话，3天之内可到达现场"},
+		{left:"质保时间",right:"3年质保，高于同行2倍质保时间"},
+		{left:"消防审批快",right:"精通消防审批的各项流程，48小时内即可快速审批"},
+	],
+	burstingH1:"本月爆款推荐系列",
+	burstingList:[
+		{
+			h1:"办公装修-会议室",
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/tableImg.jpg",
+			abt:"点击了解更多 >"
+		},
+		{
+			h1:"办公装修-前台",
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/tableImg.jpg",
+			abt:"点击了解更多 >"
+		},		
+	],
+	producth1:"本月精选推荐产品 ",
+	producth2:"专注办公装修16年 ，为您打造高颜值办公空间 ",
+	producthList:[
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},	
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},	
+	],
+	certificateH1:"荣誉资质证书",
+	certificateList:[
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/honor.jpg",
+			p:"01 设计甲级资质"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/honor.jpg",
+			p:"01 设计甲级资质"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/honor.jpg",
+			p:"01 设计甲级资质"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/honor.jpg",
+			p:"01 设计甲级资质"
+		},
+	],
+	shapeH1:"我们的承诺 =",
+	shapeList:[
+		{
+			p1:"免费",
+			p2:"装修报价",
+		},
+	],
+	shapeListT:[
+		{
+			p1:"免费",
+			p2:"装修报价",
+		},
+		{
+			p1:"免费",
+			p2:"装修报价",
+		},
+				{
+			p1:"免费",
+			p2:"装修报价",
+		},
+				{
+			p1:"免费",
+			p2:"装修报价",
+		},
+	],
+	productTh1:"本月精选推荐产品 ",
+	productTh2:"专注办公装修16年 ，为您打造高颜值办公空间 ",
+	productTList:[
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},
+		{
+			img:"http://page-bucket.oiaqye7985.com/land-page/images/module11/monthImg.jpg",
+			h1:"百艺宝信息科技办公装修工程",
+			p:"简约、严谨、时尚、办公的整体办公空间",
+			abt1:"点击询价",
+			abt2:"点击了解更多 >"
+		},		
+	],
+	discountH1:"优惠大酬宾",
+	discountH2:"本月有优惠 先到先得",
+	discountH3:"（名额有限 每日前十名有优惠）",
+	discountabt:"立抢优惠名额",
+}
