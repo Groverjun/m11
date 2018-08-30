@@ -600,6 +600,8 @@ html,body{
 		font-size: 0.28rem;
 		white-space: nowrap;
         text-overflow: ellipsis;
+        overflow: hidden;
+        padding: 0 0.05rem;
 	}
 	.modulePC_content .tableRecommend_table table thead th .triangle{
 		border: 0.15rem solid transparent;
@@ -627,6 +629,7 @@ html,body{
 	}
 	.modulePC_content .productTable .productTable_box .abt {
 	    padding-top: 0.12rem;
+	    margin-top: 0.25rem;
 	}
 	.modulePC_content .productTable .productTable_box .abt a {
 	    font-size: 0.28re,;
@@ -671,6 +674,7 @@ html,body{
 	    white-space: nowrap;
         text-overflow: ellipsis;
         overflow: hidden;
+        padding: 0 0.1rem;
 	}
 	.modulePC_content .productMonth .productMonthListTxt .productMonthListTxt_abt {
 	    padding-top: 0.26rem;
@@ -688,7 +692,7 @@ html,body{
 	    width: 3rem;
 	    height: 2.66rem;
 	    padding: 0.1rem;
-	    margin: auto;
+	    margin:0 auto 0.5rem;
 	}
 	.modulePC_content .productMonth .honor_list .honor_listImg {
 	    width: 100%;
